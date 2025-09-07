@@ -117,7 +117,6 @@ class MRBaseDataSets(Dataset):
         sample["case"] = case
         return sample
 
-
 class CTBaseDataSets(Dataset):
     def   __init__(self, base_dir=None, split='train', transform=None):
         self._base_dir = base_dir
