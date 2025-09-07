@@ -436,6 +436,7 @@ class ResNetMulti(nn.Module):
                     if k.requires_grad:
                         yield k
 
+
     def get_10x_lr_params(self):
         """
         This generator returns all the parameters for the last layer of the net,

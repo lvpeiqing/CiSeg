@@ -34,6 +34,7 @@ def dice_eval(pred,label,n_class):
     return dice,dice_arr,np.hstack(each_class_number)
 
 
+
 def bce_loss(y_pred, y_label):
     y_truth_tensor = torch.FloatTensor(y_pred.size())
     y_truth_tensor.fill_(y_label)

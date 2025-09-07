@@ -14,6 +14,7 @@ def get_fc_discriminator(num_classes, ndf=64):
         nn.LeakyReLU(negative_slope=0.2, inplace=True),
         nn.Conv2d(ndf * 8, 1, kernel_size=4, stride=2, padding=1),)
 
+
 def init_weights(net, init_type='normal', init_gain=0.02):
     """Initialize network weights.
     Parameters:

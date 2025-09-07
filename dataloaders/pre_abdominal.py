@@ -25,6 +25,7 @@ def write_txt(data, path):
             f.writelines(val + '\n')
 
 
+
 def getRangeImageDepth(label):
     d = np.any(label, axis=(1,2))
     h = np.any(label, axis=(0,2))

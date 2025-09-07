@@ -576,6 +576,7 @@ class PixelCLLossTrg(nn.Module):
                                  mode='nearest').squeeze(1).long()
 
 
+
         # batch size, channel size, height and width of target sample
         B, C, Hs, Ws = src_feat.size()  #torch.Size([4, 2048, 17, 17])
 

@@ -25,6 +25,7 @@ from networks.net_factory import net_factory
 from utils.losses import DiceLoss,DiceLossSDM
 from val_2D import test_single_volume
 
+
 cpu_num = 4 # 这里设置成你想运行的CPU个数
 os.environ ['OMP_NUM_THREADS'] = str(cpu_num)
 os.environ ['OPENBLAS_NUM_THREADS'] = str(cpu_num)

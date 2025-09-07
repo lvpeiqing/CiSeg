@@ -102,6 +102,7 @@ def net_factory(net_type="unet", in_chns=1, class_num=4, mode = "train"):
     # elif net_type == "sifa":
     #     net =  SIFA(args).cuda()
 
+
     elif net_type == "deeplabv2":
         RESTORE_FROM = './networks/DeepLab_resnet_pretrained_imagenet.pth'
         # RESTORE_FROM = restore

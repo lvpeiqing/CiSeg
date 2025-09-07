@@ -114,6 +114,7 @@ def  test_single_volumeall(image, label, net_l, net_b, classes, patch_size=[256,
             # pred = zoom(out, (x / patch_size[0], y / patch_size[1]), order=0)
             prediction[ind] = pred
 
+
     metric_list = []
     for i in range(1, classes):
         metric_list.append(calculate_metric_percase(

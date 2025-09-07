@@ -319,6 +319,7 @@ class ClassifierModule(nn.Module):
         return out
 
 
+
 class ResNetMulti(nn.Module):
     def __init__(self, block, layers, num_classes, multi_level):
         self.multi_level = multi_level

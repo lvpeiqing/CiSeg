@@ -107,6 +107,7 @@ class MRBaseDataSets(Dataset):
         image = h5f['image'][:]
         label = h5f['label'][:]
 
+
         image = image.astype(np.float32)
         label = label.astype(np.uint8)
 

@@ -149,7 +149,6 @@ def test_single_volume(case, net, test_save_path, FLAGS):
             entropy_map = construct_color_img(entropy_map)
             cv2.imwrite(save_ent_path + "/slice_{}.png".format(ind), entropy_map)
 
-
     i = i + 1
 
     first_metric = calculate_metric_percase(prediction == 1, label == 1)

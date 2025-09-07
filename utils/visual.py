@@ -4,7 +4,6 @@ from PIL import Image
 import torch
 import cv2
 
-
 def get_cityscapes_labels():
     return np.array([
         # [  0,   0,   0],

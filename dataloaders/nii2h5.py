@@ -9,6 +9,7 @@ slice_num = 0
 
 mask_path = sorted(glob.glob("./tr_ct/image/*.nii.gz"))
 
+
 ################tr data: nii to slice(h5)################
 
 for case in tqdm(mask_path):

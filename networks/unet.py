@@ -11,6 +11,7 @@ import numpy as np
 import torch.nn.functional as F
 
 
+
 def masked_average_pooling(feature, mask):
     #print(feature.shape[-2:])
     # print(feature.shape)  #torch.Size([24, 32, 256, 256])
