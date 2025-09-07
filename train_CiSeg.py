@@ -69,7 +69,6 @@ parser.add_argument('--seed', type=int,  default=1337, help='random seed')
 args = parser.parse_args()
 
 
-
 def DiceLoss_DSV(out_group, target, aux_weights=[0.4, 0.6, 0.8]):
   criterion = DiceLossSDM(4)
   loss = 0
