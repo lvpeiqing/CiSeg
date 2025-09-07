@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from skimage import measure
 import scipy.ndimage as nd
 
-
 def recursive_glob(rootdir='.', suffix=''):
     """Performs recursive glob with given suffix and rootdir
         :param rootdir is the root directory
